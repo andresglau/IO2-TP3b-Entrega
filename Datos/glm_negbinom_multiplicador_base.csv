@@ -1,0 +1,19 @@
+,coef_log,multiplicador_parcial
+Intercept,-0.6630816963455957,0.5152610073342663
+C(platform_surface_code)[T.feed],0.5153748240891731,1.6742659394065902
+C(platform_surface_code)[T.group],0.7143406129264253,2.042839216283947
+C(platform_surface_code)[T.repost],0.6126865380311008,1.8453824353242427
+C(platform_surface_code)[T.story],0.30824319552824087,1.3610319455748885
+C(content_type_code)[T.link-ext],-0.48224132838141104,0.6173980481131541
+C(content_type_code)[T.poll],-0.19996809746693625,0.8187568730795471
+C(content_type_code)[T.screenshot],-0.15813666413808306,0.8537330992973265
+C(content_type_code)[T.txt],-0.3049165632649116,0.7371848801252274
+C(content_type_code)[T.vid-short],0.04568257268212859,1.0467420936811365
+C(account_type_code)[T.BROADCASTER],0.3578567043890045,1.4302606557204292
+C(account_type_code)[T.CREATOR],0.2821450055414771,1.3259709791869503
+C(account_type_code)[T.LURKER],-0.006421431398692294,0.9935991419316139
+C(account_type_code)[T.STANDARD],0.004790581085130849,1.0048020742643706
+"C(nivel_audiencia, levels=['nano', 'micro', 'macro', 'mega'])[T.micro]",1.4541609045747645,4.280889883016834
+"C(nivel_audiencia, levels=['nano', 'micro', 'macro', 'mega'])[T.macro]",1.7148781205933628,5.555998309316488
+"C(nivel_audiencia, levels=['nano', 'micro', 'macro', 'mega'])[T.mega]",1.7005284733909483,5.476840991795154
+log1p_antig_rel,-1.350308236543322,0.2591603656379732

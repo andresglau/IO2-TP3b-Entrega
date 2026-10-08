@@ -1,0 +1,21 @@
+param,valor_base,unidad,range_min,range_max,comentario
+valor_engagement_por_impresion,0.0009,USD/impresion,0.0003,0.003,Valor economico atribuido por impresion legitima (ingreso publicitario proxy)
+costo_moderador_por_hora,22.0,USD/hora,14.0,45.0,Costo cargado de un moderador de contenido humano
+moderadores_por_turno,1.0,count,1.0,12.0,Cantidad de moderadores simultaneos por turno evaluados
+horas_operativas_mes,720.0,horas/mes,672.0,744.0,Horas operativas por mes (aprox 24/7)
+costo_revision_por_item_flag,0.12,USD/item,0.05,0.6,Costo marginal de revisar un item marcado por el clasificador
+capex_clasificador_ml,250000.0,USD,80000.0,900000.0,Costo de desarrollar/adquirir el clasificador automatico de contenido
+opex_anual_clasificador,60000.0,USD/year,20000.0,180000.0,Costo anual de operacion/reentrenamiento del clasificador
+vida_util_clasificador_years,4.0,years,2.0,8.0,Vida util para amortizar el clasificador
+discount_rate,0.1,decimal,0.06,0.18,Tasa de descuento para NPV
+precision_clasificador,0.72,fraction,0.5,0.95,Precision del clasificador (fraccion de flags correctos)
+recall_clasificador,0.63,fraction,0.3,0.9,Recall del clasificador (fraccion de nocivos detectados)
+costo_reputacional_por_falso_positivo,1.5,USD/item,0.2,10.0,"Costo de moderar de mas contenido legitimo (usuarios molestos, apelaciones)"
+costo_social_por_impresion_nociva,0.004,USD/impresion,0.001,0.05,Externalidad estimada por impresion de contenido nocivo no contenido
+reduccion_alcance_rate_limit,0.0,fraction,0.0,0.9,Fraccion de reduccion de alcance por reenvio limitado (a definir por escenario)
+umbral_reenvios_rate_limit,5.0,count,1.0,20.0,N de reenvios tras el cual se aplica friccion (estilo limite de reenvios)
+perdida_engagement_por_rate_limit,0.15,fraction,0.02,0.5,Fraccion de engagement legitimo perdido al aplicar rate-limiting
+costo_degradar_influencer_por_dia,120.0,USD/day,20.0,600.0,Costo reputacional/contractual diario de degradar alcance de una cuenta grande
+latencia_objetivo_moderacion_min,120.0,min,30.0,720.0,Latencia objetivo (SLA) para actuar sobre un item nocivo
+valor_marca_por_usuario_activo,3.2,USD/user·month,1.0,12.0,Valor de marca por usuario activo mensual (para costo de churn)
+tasa_churn_por_exposicion_nociva,0.0006,fraction,0.0001,0.004,Incremento de churn por exposicion a contenido nocivo no moderado

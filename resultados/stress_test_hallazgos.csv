@@ -1,0 +1,15 @@
+sweep,valor,alcance_noc_medio,ocupacion_media,items_flageados_medio,espera_cola_media,k_medio,nota
+VD1_moderadores,1,12850952.275631007,0.9980783910016205,2888.8,23544.401250054132,4956.4,ocupacion y espera en cola deberian bajar monotonamente con mas moderadores
+VD1_moderadores,2,11753621.735250738,0.989103560702542,2829.8,7914.642732874202,5106.4,ocupacion y espera en cola deberian bajar monotonamente con mas moderadores
+VD1_moderadores,6,4628237.56262287,0.6745459885806312,1329.4,106.91094166053013,3184.6,ocupacion y espera en cola deberian bajar monotonamente con mas moderadores
+VD1_moderadores,12,2888821.162514542,0.36506113330745626,1122.4,35.77955074097789,3151.6,ocupacion y espera en cola deberian bajar monotonamente con mas moderadores
+VD1_moderadores,24,3036785.641800239,0.19451447062382943,1015.8,15.936393143839993,3052.2,ocupacion y espera en cola deberian bajar monotonamente con mas moderadores
+VD2_rate_limit,"umbral=20,reduccion=0.0",11753621.735250738,0.989103560702542,2829.8,7914.642732874202,5106.4,impresiones_recortadas>0 solo si reduccion>0 (chequeado)
+VD2_rate_limit,"umbral=10,reduccion=0.25",7384288.945613866,0.9909370059792263,1574.2,7162.344043405661,3014.0,impresiones_recortadas>0 solo si reduccion>0 (chequeado)
+VD2_rate_limit,"umbral=5,reduccion=0.45",5205559.0563781485,0.9916380315965375,1037.6,7313.354197363738,2096.8,impresiones_recortadas>0 solo si reduccion>0 (chequeado)
+VD2_rate_limit,"umbral=1,reduccion=0.9",3134153.8782699043,0.988917216351793,597.6,6145.009229234285,1333.2,impresiones_recortadas>0 solo si reduccion>0 (chequeado)
+VD3_degradacion,"segmento=[],intensidad=0.0",11753621.735250738,0.989103560702542,2829.8,7914.642732874202,5106.4,segmento vacio -> degradadas debe ser exactamente 0 (chequeado)
+VD3_degradacion,"segmento=['mega'],intensidad=0.5",9382571.674440414,0.9897332423213617,2407.8,7579.638349425635,4324.8,segmento vacio -> degradadas debe ser exactamente 0 (chequeado)
+VD3_degradacion,"segmento=['macro', 'mega'],intensidad=0.9",4021742.2491197623,0.9900129660312199,975.2,7576.860333555065,1971.8,segmento vacio -> degradadas debe ser exactamente 0 (chequeado)
+caso_limite,KMAX=10,1009.8705314708825,0.3122089879370859,8,0.0,10,"corte limpio confirmado, sin excepcion"
+caso_limite,1 moderador + pesimista,1661612.7080555975,0.9998780822986651,769,31212.553899657458,1248,termina sin colgarse incluso en saturacion extrema
