@@ -1,16 +1,15 @@
 # TP3 Parte B — IO2 (RedBaires) — Motor de simulación
 
-Entrega de parte B: implementación, calibración y experimentos del simulador de
-eventos discretos descripto en el Modelo Conceptual de Parte A. El informe completo
-(lógicas/bloques, cambios vs. Parte A, cálculo de N y resultados) está en
-`TP3_Parte_B_Informe.docx`.
+Repositorio de código, datos y resultados de la entrega de parte B: implementación,
+calibración y experimentos del simulador de eventos discretos descripto en el Modelo
+Conceptual de Parte A. El informe (lógicas/bloques, cambios vs. Parte A, cálculo de N
+y resultados) se entrega por afuera de este repositorio, como documento aparte.
 
 ## Estructura
 
 ```
 IO2-TP3b-Entrega/
 ├── README.md                 # este archivo
-├── TP3_Parte_B_Informe.docx  # informe (máx. 10 páginas, rúbrica de parte B)
 ├── modelo_logico_simulador.drawio  # modelo lógico (flowchart), actualizado para
 │                                     # coincidir exactamente con el motor final
 │                                     # (ver tp3/parte b/CLAUDE.md sección 9)
