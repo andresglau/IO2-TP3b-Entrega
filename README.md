@@ -11,6 +11,9 @@ eventos discretos descripto en el Modelo Conceptual de Parte A. El informe compl
 IO2-TP3b-Entrega/
 ├── README.md                 # este archivo
 ├── TP3_Parte_B_Informe.docx  # informe (máx. 10 páginas, rúbrica de parte B)
+├── modelo_logico_simulador.drawio  # modelo lógico (flowchart), actualizado para
+│                                     # coincidir exactamente con el motor final
+│                                     # (ver tp3/parte b/CLAUDE.md sección 9)
 ├── codigo/                   # motor de eventos discretos (Python)
 │   ├── parametros.py         # carga de datos, calibración, escenarios
 │   ├── motor.py               # motor de eventos discretos (nucleo)
